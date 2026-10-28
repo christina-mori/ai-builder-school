@@ -60,3 +60,11 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 - https://www.anthropic.com/research/building-effective-agents
 
 参考用户提供的像素片场源码中的帧式人物起伏、悬停反馈和 reduced-motion 思路，以 CSS/SVG 独立实现。没有复制该网站的人物素材、个人资料、视频或 Three.js 源码。
+
+## 两版风格评审
+
+- A「暖色冒险」：`/index.html`，保留原有视觉。
+- B「白昼远征」：`/bright/index.html`，复制版，白石山谷、星门徽记、蓝斗篷角色和四条可点击切换的提示。
+- 顶部可互相切换。两版在同一域名共用本地演示存档；不是两套真实账号。
+- B 的主体文件是 A 的快照，额外由 `bright.css` 和 `bright.js` 覆盖视觉，确定风格后再合并维护，暂不独立演进业务功能。
+- B 的地图保留同一节点结构并调整配色；不是新设计的三维世界。

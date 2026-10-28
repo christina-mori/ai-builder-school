@@ -1,0 +1,2 @@
+const versionBar=document.createElement('div');versionBar.className='version-switch';const isBright=location.pathname.includes('/bright/');versionBar.innerHTML=`<span>风格对比</span><a href="${isBright?'../':'./'}index.html${location.hash}" ${!isBright?'aria-current="page"':''}>A · 暖色冒险</a><a href="${isBright?'./':'bright/'}index.html${location.hash}" ${isBright?'aria-current="page"':''}>B · 白昼远征</a>`;document.body.prepend(versionBar);
+versionBar.addEventListener('click',e=>{const a=e.target.closest('a');if(a)a.href=a.href.split('#')[0]+(location.hash||'#home');});
