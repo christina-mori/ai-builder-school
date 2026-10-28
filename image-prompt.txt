@@ -1,0 +1,8 @@
+Generated using the built-in image_gen tool. No specific model version was exposed by the tool.
+Asset: dist/assets/adventure-village.png
+Prompt:
+Use case: stylized-concept. Asset type: wide pixel-art scene for a cozy learning adventure game's homepage, landscape 3:2. Original professional 16-bit pixel art, crisp square pixel clusters, limited rich palette, no smooth gradients, no blur, no vector look. A welcoming adventurers' guild village on a floating hillside: terracotta roof workshop with warmly lit windows at right, wooden bulletin board, small stone bridge over turquoise stream, sunflowers, tiny traveler with backpack, winding path toward a distant lavender mountain castle. Sky blue and peach sunset clouds occupy upper third, golden wheat and orange foliage with selective emerald accents. Cozy adventurous storybook RPG atmosphere, lively and detailed rather than washed out or monochrome. Strong silhouette composition with buildings on right and open landscape on left. No text, letters, UI, borders or logos. Pixel game background, not website mockup.
+
+UI references (structure only; no downloaded assets):
+https://anipixels.itch.io/crisp-pixel
+https://heyheythere.itch.io/pixel-ui-fantasy-free
