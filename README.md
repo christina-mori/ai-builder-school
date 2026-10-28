@@ -47,3 +47,16 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 - 公会场景由图像生成工具制作；像素图标与界面由代码绘制。未使用《星露谷物语》的游戏素材。
 
 仓库公开用于课程平台协作；字体受各自许可证约束，项目代码暂未额外指定开源许可证。
+
+## 地图与进阶锦囊
+
+`dist/learning.js` 扩展地图和知识目录：八个可点击周节点、角色/云层动效、暂停开关及减少动态效果适配；领域与难度分别筛选。手机地图在容器内横向滚动。
+
+进阶示例「知识库问答为什么答错？」包含 RAG 排错流程、三种本地规则演示、复现实验和验收清单。未接入模型、检索服务或计费 API。分类与示例内容是待课程组审核的建议，不代表已批准的教学安排。
+
+研究参考：
+- https://www.anthropic.com/research/contextual-retrieval
+- https://docs.dify.ai/en/cloud/use-dify/knowledge/create-knowledge/setting-indexing-methods
+- https://www.anthropic.com/research/building-effective-agents
+
+参考用户提供的像素片场源码中的帧式人物起伏、悬停反馈和 reduced-motion 思路，以 CSS/SVG 独立实现。没有复制该网站的人物素材、个人资料、视频或 Three.js 源码。
