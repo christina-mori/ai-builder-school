@@ -71,6 +71,7 @@ body[data-edition=bright]{--journey-paper:#fffef8;--journey-edge:#bbccd4;--journ
 .archive-eyebrow{font-size:11px;color:var(--journey-muted)}.journey-archive h2{font:18px WenKai,sans-serif;margin:6px 0;color:var(--journey-ink);line-height:1.6}.journey-archive p{font-size:13px;color:var(--journey-muted);line-height:1.8}.journey-archive>.ghost{margin-left:auto;white-space:nowrap}
 .journey-footnote{font-size:11px;line-height:1.9;color:var(--journey-muted);margin:16px 0 8px}
 .is-paused *{animation-play-state:paused!important}
+.artwork-notice{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--journey-paper);border:1px solid var(--journey-edge);color:var(--journey-muted);font-size:13px;padding:12px 15px;margin:0 0 20px;flex-wrap:wrap}.artwork-notice .ghost{font-size:12px;padding:7px 10px}
 @keyframes npc-idle{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 @keyframes npc-greet{0%,100%{transform:translateY(0)}40%{transform:translateY(-7px) rotate(-2deg)}70%{transform:translateY(-2px) rotate(2deg)}}
 @keyframes map-mote{0%,100%{opacity:.15;transform:translateY(0)}45%{opacity:.85}80%{opacity:.2;transform:translateY(-13px)}}
