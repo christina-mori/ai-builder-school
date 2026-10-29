@@ -1,9 +1,27 @@
-.DS_Store
+# Local configuration and credentials
 .openai/
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+# Dependencies and caches
 node_modules/
-PLAN.md
-redesign-preview.png
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Machine and editor output
+.DS_Store
+Thumbs.db
 *.log
+.vscode/
+.idea/
+# Local review material, not runtime assets
+design-review/
+*-preview.png
+*-review.png
+PLAN.md
+art-direction-home2.json
+# Root screenshots are reviews; runtime artwork under dist remains tracked.
+/*.png
