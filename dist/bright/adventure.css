@@ -14,8 +14,8 @@ button,a,input,textarea{border-radius:0!important}button{transition:transform .1
 .hero-content{clip-path:none}.resource .r-icon svg{display:none}.resource .r-icon .pixel-icon{width:32px;height:32px;padding:2px}.nav canvas{width:25px;height:25px;image-rendering:pixelated}.nav button.active canvas{filter:brightness(1.13)}
 
 /* Self-hosted OFL fonts: pixel display + handwritten reading text. */
-@font-face{font-family:FusionPixel;src:url('assets/fonts/fusion-pixel.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:WenKai;src:url('assets/fonts/wenkai-regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:FusionPixel;src:url('../assets/fonts/fusion-pixel-ui.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:WenKai;src:url('../assets/fonts/wenkai-ui.woff2') format('woff2');font-weight:400;font-display:swap}
 :root{font-family:WenKai,'PingFang SC',sans-serif}
 h1,h2,h3,.nav button,.brand-name,.week strong,.chapter-label,.hero-content:before,.task-kicker,.eyebrow{font-family:FusionPixel,'PingFang SC',sans-serif;font-weight:400!important;font-synthesis:none;letter-spacing:0}
 .page-title h1,.hero h2{font-size:24px;line-height:1.5}.section-head h2,.task-meta h3,.group-card h3,.modal-header h2{font-size:24px;line-height:1.5}
